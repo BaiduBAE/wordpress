@@ -1,0 +1,3 @@
+1,修改/wp-admin/includes/file.php中的wp_handle_upload为云存储.
+
+2,

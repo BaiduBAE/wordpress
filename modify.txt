@@ -1,0 +1,10 @@
+修改日志：
+
+1, 修改wp-admin/includes/file.php中的wp_handle_upload中的文件上传方式,改为使用云存储.
+
+2，修改wp-config.php中的数据库配置， 改为使用bae提供的mysql服务.
+
+3, 修改wp-includes/pluggable.php中的wp_mail函数的实现方式， 改为使用bae提供的mail方式.
+
+	
+					2012-02-22 16:31
