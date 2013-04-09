@@ -361,7 +361,7 @@ function validate_file_to_edit( $file, $allowed_files = '' ) {
 	//新版采用百度云存储
 	
 	//上传到云存储
-	require_once('bcs.class.php');
+	require_once('BaiduBCS.class.php');
 	$bucket = constant('BCS_BUCKET');
 	$opt = array();
 	$baidu_bcs = new BaiduBCS();
